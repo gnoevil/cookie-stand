@@ -1,44 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Sales</title>
-    <link rel="stylesheet" href="css-reset.css" media="screen" title="no title">
-    <link rel="stylesheet" href="style.css" media="screen" title="no title">
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <ul>
-          <li class="hoursOfOper">Open from 6am to 8pm at all locations</li>
-          <li class="clearFix"></li>
-        </ul>
-        <h1 class="businessName">Pat's Salmon Cookies</h1>
-      </div>
-        <nav>
-          <ul>
-            <li class="navigationMenu"><a href="index.html">Home</a></li>
-            <li class="navigationMenu iAmHere"><a href="sales.html">Sales</a></li>
-          </ul>
-      </nav>
-    </header>
-    <main id="content">
-      <section id="formSection">
-        <form id="newStoreForm" action="" method="post">
-          <fieldset><legend>New Store Form</legend>
+<head>
+  <meta charset="utf-8">
+  <title>Sales</title>
+  <link rel="stylesheet" href="css-reset.css" media="screen" title="no title">
+  <link rel="stylesheet" href="style.css" media="screen" title="no title">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <ul>
+        <li class="hoursOfOper">Open from 6am to 8pm at all locations</li>
+        <li class="clearFix"></li>
+      </ul>
+      <h1 class="businessName">Pat's Salmon Cookies</h1>
+    </div>
+    <nav>
+      <ul>
+        <li class="navigationMenu"><a href="index.html">Home</a></li>
+        <li class="navigationMenu iAmHere"><a href="sales.html">Sales</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="content">
+    <section id="formSection">
+      <form id="newStoreForm" action="" method="post">
+        <fieldset><legend>New Store Form</legend>
           <input type="text" id="location" name="location" value="" placeholder="New Store Location"/>
           <input type="number" id="minHourly" name="minHourly" value="" placeholder="Minimum customer value"/>
           <input type="number" id="maxHourly" name="maxHourly" value="" placeholder="Maximum customer value"/>
           <input type="number" id="avgSale" name="avgSale" value="" placeholder="Average Sale per customer"/>
           <input type="submit" id="submitNewStore" value="Add Store Info"/>
-          </fieldset>
-        </form>
-        <input id="new-store" type="button" value="Make New Store"></input>
+        </fieldset>
+      </form>
 
+    </section>
 
-      </section>
-
-    </main>
-    <script src="app.js"></script>
-  </body>
+  </main>
+  <script src="app.js"></script>
+</body>
 </html>
