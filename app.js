@@ -49,7 +49,6 @@ function CookieStore (location, minHourly, maxHourly, avgSale) {
   };
   locations.push(this);
 };
-makeNewElement('h1', 'All Cookies Stores', content);
 
 var createStoreTable = function() {
   var content = document.getElementById('content');
@@ -99,7 +98,6 @@ var capHill = new CookieStore('Capitol Hill', 20, 38, 2.3);
 var alki = new CookieStore('Alki', 2, 16, 4.6);
 
 function populateTable(){
-  console.log('populateTable');
   var tBody = document.getElementById('store-body');
   tBody.innerHTML = '';
   for(var i = 0; i < locations.length; i++){
