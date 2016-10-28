@@ -1,31 +1,75 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Pat's Salmon Cookies</title>
-    <link rel="stylesheet" href="css-reset.css" media="screen" title="no title">
-    <link rel="stylesheet" href="style.css" media="screen" title="no title">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>Home - Pat's Salmon Cookies</title>
+  <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="css-reset.css" media="screen" title="no title">
+  <link rel="stylesheet" href="style.css" media="screen" title="no title">
+</head>
+<body>
+  <div class="page">
     <header>
-      <div class="logo">
+      <nav>
         <ul>
-          <li class="hoursOfOper">Open from 6am to 8pm at all locations</li>
-          <li class="clearFix"></li>
+          <a href="index.html" class="iAmHere navigationMenu"><li >Home</li></a>
+          <a href="sales.html" class="navigationMenu"><li>Sales</li></a>
+          <a href="about-us.html"  class="navigationMenu"><li>About Us</li></a>
+          <a href="merch.html" class="navigationMenu"><li>Merchandise</li></a>
         </ul>
-        <h1 class="businessName">Pat's Salmon Cookies</h1>
-      </div>
-        <nav>
-          <ul>
-            <li class="navigationMenu iAmHere"><a href="index.html">Home</a></li>
-            <li class="navigationMenu"><a href="sales.html">Sales</a></li>
-          </ul>
       </nav>
-    </header>
-    <main>
+    </nav>
+    <div class="logo">
+      <ul>
+        <li class="hoursOfOper">Open from 6am to 8pm at all locations</li>
+        <li class="clearFix"></li>
+      </ul>
+      <h1 class="businessName">Pat's Salmon Cookies</h1>
+    </div>
+  </header>
+  <main class="twelve-columns">
+    <aside class="grey four-columns">
+      <h3 class="center">Where to find us!</h3>
+      <div class="hline black">
 
-    </main>
-    <script src="app.js"></script>
-    <script src="https://use.fontawesome.com/93cfa67ec9.js"></script>
-  </body>
+      </div>
+
+    </aside>
+    <section class="grey eight-columns cookie">
+      <aside class="grey four-columns">
+        <h3 class="center">Our Cookies!</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </aside>
+    </section>
+  </main>
+  <section class="business twelve-columns">
+    <div class="grey four-columns">
+      <h4 class="center">Locations</h4>
+      <div class="hline"></div>
+      <ul>
+        <a href="#"><li class="center">1st and Pike</li></a>
+        <a href="#"><li class="center">SeaTac Airport</li></a>
+        <a href="#"><li class="center">Seattle Center</li></a>
+        <a href="#"><li class="center">Capitol Hill</li></a>
+        <a href="#"><li class="center">Alki</li></a>
+      </ul>
+    </div>
+    <div class="grey four-columns">
+      <h4 class="center">Some Stuff</h4>
+      <div class="hline"></div>
+    </div>
+    <div class="grey four-columns">
+      <h4 class="center">Some Stuff</h4>
+      <div class="hline"></div>
+    </div>
+  </section>
+</div>   <!--- end of page  ----->
+<footer class="twelve-columns">
+  <ul>
+    <li class="copyright center">Copyright 2016 &copy; g@no.evil</li>
+  </ul>
+</footer>
+<script src="app.js"></script>
+</body>
 </html>

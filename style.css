@@ -1,9 +1,77 @@
-.navigationMenu {
-  display: inline-block;
+.two-columns {
+  width: 13.3333333333%;
+  min-height: 250px;
+  margin-left: 4%;
+  padding: 4%;
+  float: left;
+  box-sizing: border-box;
 
 }
-.iAmHere {
-  background-color: #D9D8A3;
+.four-columns {
+  width: 30.6666666667%;
+  min-height: 250px;
+  margin-left: 4%;
+  padding-left: 10px;
+  float: left;
+  box-sizing: border-box;
+}
+.four-columns:first-child {
+  margin-left: 0;
+
+}
+.eight-columns {
+  width: 65.3333333333%;
+  min-height: 250px;
+  margin-left: 4%;
+  padding: 0;
+  float: left;
+  box-sizing: border-box;
+}
+.twelve-columns {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+.grey {
+  background-color: rgba(50, 50, 50, 0.3);
+}
+.hline {
+  height: 2px;
+  background-color: white;
+  width: 70%;
+  margin: 10px auto;
+  box-sizing: border-box;
+}
+.hline.black {
+  background-color: black;
+  width: 70%;
+}
+.business {
+  min-height: 200px;
+  overflow: hidden;
+}
+a.navigationMenu {
+  border-top: 5px solid #D9D8A3;
+  display: inline-block;
+  padding-top: 20px;
+  font-size: 1.5em;
+  padding-right: 10px;
+
+}
+a.iAmHere {
+  border-top: 5px solid #5C6149;
   font-weight: bold;
 }
 .businessName {
@@ -22,23 +90,87 @@
   display: inline-block;
   float: right;
 }
+
 .clearFix {
   float: none;
+}
+.copyright {
+  text-align: center;
+  padding-top: 10px;
+}
+aside.us-info {
+  z-index: 1;
+  min-height: 250px;
+  margin-top: 0;
+  margin-left: 0;
+}
+section.us {
+  background-image: url("assets/family.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  padding: 0;
+  min-height: 250px;
+  box-sizing: border-box;
+}
+section.cookie {
+  background-image: url("assets/frosted-cookie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  padding: 0;
+  min-height: 250px;
+  box-sizing: border-box;
+}
+section.merch-shirt {
+  background-image: url("assets/shirt.jpg");
+  float:right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  padding: 0;
+  min-height: 250px;
+  box-sizing: border-box;
+
 }
 #formSection {
   width: 250px;
   margin: 0 auto;
-
 }
 #store-data {
+  margin: 30px auto;
+}
+body {
+  background-color: #F0E2C1;
+  font-family: 'Ubuntu', sans-serif;
+}
+.page {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
   margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+header {
+
+}
+nav {
+  height: 75px;
+
+}
+main {
+  min-height: 400px;
+  background-color: #D9B2A3;
+
+}
+h1, h2, h3, h4 {
+  padding: 5px;
 }
 ul {
   list-style-type: none;
 }
-body {
-  background-color: #F0E2C1;
-}
+
 a {
   text-decoration: none;
   color: #5C6149;
@@ -64,4 +196,7 @@ input[type="text"], input[type="number"] {
 }
 fieldset {
   border: thin solid dimgrey;
+}
+footer {
+  height: 50px;
 }
